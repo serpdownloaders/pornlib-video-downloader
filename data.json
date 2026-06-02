@@ -1,0 +1,214 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/pornlib-downloader",
+  "serply_link": "https://serp.ly/pornlib-downloader",
+  "app_name": "Pornlib Video Downloader",
+  "short_description": "Download & Save Pornlib Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "Pornlib Downloader is a browser extension built for the PornLib library/catalog platform, designed to help you save videos from branded /video pages. Instead of digging through page source or network tools, this extension follows the embedded player handoff that PornLib uses and surfaces the available media stream for download.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/pornlib-downloader-fullscreen-01-a5696e3493.webp",
+    "https://apps.serp.co/media/optimized-products/pornlib-downloader-fullscreen-02-504181f5f4.webp",
+    "https://apps.serp.co/media/optimized-products/pornlib-downloader-fullscreen-03-3e2e564567.webp",
+    "https://apps.serp.co/media/optimized-products/pornlib-downloader-fullscreen-04-4c2f8a1a95.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "Does this extension work on every PornLib video page?",
+      "answer": "It is designed for PornLib /video pages that use the descriptive slug plus numeric tail URL pattern and iframe-based playback handoff."
+    },
+    {
+      "question": "Can I download videos in the highest quality available?",
+      "answer": "The extension detects the streams surfaced after the iframe handoff, which typically includes multiple quality options when available."
+    },
+    {
+      "question": "Is my download history tracked or stored anywhere?",
+      "answer": "No. The extension processes everything locally in your browser and does not send your download activity to any external server."
+    },
+    {
+      "question": "What happens if the stream format changes in the future?",
+      "answer": "The extension targets m3u8 and mp4 formats commonly found on PornLib. If the platform changes its delivery method, an update may be needed."
+    },
+    {
+      "question": "Do I need an account to use the trial?",
+      "answer": "You need to sign in with your email using a one-time password to activate the 3 free downloads, but no credit card is required."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "Keeping a backup copy of videos you have permission to save"
+    },
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "Detects the iframe-based playback layer on PornLib video pages",
+    "Works with the distinctive /video route that uses a descriptive slug plus numeric tail",
+    "Targets m3u8 and mp4 stream formats commonly found after the embedded handoff",
+    "Provides a clean popup interface for one-click video saving",
+    "Keeps your downloads private without relying on third-party services",
+    "Offers a free trial so you can test compatibility before purchasing",
+    "Detects iframe-based playback handoff on PornLib video pages",
+    "Works with the /video route pattern that uses a descriptive slug plus numeric tail",
+    "Supports m3u8 and mp4 stream discovery after the embedded player layer",
+    "One-click download interface from the browser toolbar popup",
+    "No need to inspect page source or open developer tools",
+    "Lightweight extension that only activates on supported PornLib pages",
+    "Private processing with no external server uploads",
+    "Clean MP4 output for easy playback and archiving"
+  ],
+  "content": {
+    "why": [
+      "PornLib organizes its video content under a library-style catalog system with branded /video pages. Unlike typical tube sites where the media source is directly embedded, PornLib often hands off playback through an iframe layer before the actual stream becomes available. This extra step makes it harder for standard downloader tools to find and capture the video file.",
+      "Pornlib Downloader is purpose-built for this setup. It recognizes the PornLib page structure, follows the iframe handoff, and surfaces the m3u8 or mp4 stream so you can save the video in a single click. The extension stays focused on PornLib's specific architecture instead of using generic detection logic that may miss the embedded player layer."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open PornLib and go to a supported video page.",
+      "Start playback so the extension can detect the media.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Navigate to a PornLib video page with a URL like /video/descriptive-slug-123456.",
+      "Allow the page to load completely, including the embedded player iframe.",
+      "Click the Pornlib Downloader icon in your browser toolbar to open the popup.",
+      "Wait while the extension scans the page and follows the iframe handoff.",
+      "Review the detected stream options displayed in the popup.",
+      "Select your preferred quality or format from the available choices.",
+      "Click the download button to start saving the video.",
+      "Save the completed MP4 file to your preferred location."
+    ],
+    "supported_formats": [
+      "Input: m3u8 and mp4 streams discovered through the iframe-based playback handoff on PornLib /video pages",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "PornLib viewers who want to save videos for offline viewing",
+      "Users who prefer a browser extension over manual network inspection",
+      "People who visit PornLib's library-style catalog pages frequently",
+      "Anyone looking for a dedicated tool that understands PornLib's iframe handoff structure"
+    ],
+    "use_cases": [
+      "Saving a favorite video from a PornLib /video page for later offline playback",
+      "Archiving content from PornLib's catalog before it may be removed or changed",
+      "Building a personal library of downloaded videos organized by category",
+      "Watching PornLib videos on devices or networks with limited streaming capability",
+      "Keeping a backup copy of videos you have permission to save"
+    ],
+    "troubleshooting": [
+      "The extension does not detect any video on the page Make sure the video player has started playing. PornLib often requires user interaction before the iframe handoff completes.",
+      "The download button is grayed out or unresponsive Refresh the page and try again. If the issue persists, check that you are on a supported PornLib /video page with the correct URL format.",
+      "The popup shows no stream options The embedded player may not have fully loaded. Wait for the video to begin playing, then open the popup again.",
+      "The download fails partway through Check your internet connection and try again. Some streams may be temporarily unavailable from the source.",
+      "I see an error about unsupported browser Make sure you are using a compatible browser version. Check the latest release notes for supported browser information."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported PornLib page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "PornLib video pages use an iframe handoff that may take a moment to complete after playback starts",
+      "The extension is designed for the PornLib library/catalog platform and may not work on other sites"
+    ],
+    "about": [
+      "PornLib is a library-style video catalog platform that organizes adult content under branded /video pages with descriptive slugs and numeric URL tails. The platform uses an iframe-based playback handoff that can make direct video downloading more complex without a dedicated tool like this extension."
+    ]
+  },
+  "serpx_link": "https://serpx.link/pornlib-downloader",
+  "github_topics": [
+    "pornlib-download",
+    "pornlib-downloader",
+    "pornlib-video-downloader",
+    "pornlib-video-downloader-online",
+    "pornlib-video-downloader-mac",
+    "pornlib-video-downloader-window",
+    "pornlib-video-downloader-free",
+    "pornlib-video-downloader-extension",
+    "pornlib-video-downloader-app",
+    "pornlib-video-downloader-chrome",
+    "pornlib-video-downloader-from-url",
+    "how-to-download-pornlib-videos",
+    "how-to-download-pornlib-videos-mac",
+    "how-to-download-pornlib-videos-windows",
+    "how-to-download-pornlib-videos-online",
+    "how-to-download-pornlib-videos-free",
+    "how-to-download-from-pornlib",
+    "how-to-download-videos-from-pornlib",
+    "download-pornlib-videos",
+    "pornlib-video-tutorial",
+    "save-pornlib-videos",
+    "pornlib-video-content-saver",
+    "how-to-download-pornlib-videos-for-free"
+  ],
+  "hashtags": [
+    "#PornlibDownload",
+    "#PornlibDownloader",
+    "#PornlibVideoDownloader",
+    "#PornlibVideoDownloaderOnline",
+    "#PornlibVideoDownloaderMac",
+    "#PornlibVideoDownloaderWindow",
+    "#PornlibVideoDownloaderFree",
+    "#PornlibVideoDownloaderExtension",
+    "#PornlibVideoDownloaderApp",
+    "#PornlibVideoDownloaderChrome",
+    "#PornlibVideoDownloaderFromURL",
+    "#HowToDownloadPornlibVideos",
+    "#HowToDownloadPornlibVideosMac",
+    "#HowToDownloadPornlibVideosWindows",
+    "#HowToDownloadPornlibVideosOnline",
+    "#HowToDownloadPornlibVideosFree",
+    "#HowToDownloadFromPornlib",
+    "#HowToDownloadVideosFromPornlib",
+    "#DownloadPornlibVideos",
+    "#PornlibVideoTutorial",
+    "#SavePornlibVideos",
+    "#PornlibVideoContentSaver",
+    "#HowToDownloadPornlibVideosForFree"
+  ],
+  "youtube_tags": [
+    "Pornlib Download",
+    "Pornlib Downloader",
+    "Pornlib Video Downloader",
+    "Pornlib Video Downloader Online",
+    "Pornlib Video Downloader Mac",
+    "Pornlib Video Downloader Window",
+    "Pornlib Video Downloader Free",
+    "Pornlib Video Downloader Extension",
+    "Pornlib Video Downloader App",
+    "Pornlib Video Downloader Chrome",
+    "Pornlib Video Downloader From URL",
+    "How To Download Pornlib Videos",
+    "How To Download Pornlib Videos Mac",
+    "How To Download Pornlib Videos Windows",
+    "How To Download Pornlib Videos Online",
+    "How To Download Pornlib Videos Free",
+    "How To Download From Pornlib",
+    "How To Download Videos From Pornlib",
+    "Download Pornlib Videos",
+    "Pornlib Video Tutorial",
+    "Save Pornlib Videos",
+    "Pornlib Video Content Saver",
+    "How To Download Pornlib Videos For Free"
+  ]
+}
